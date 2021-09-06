@@ -28,6 +28,9 @@ if &term =~ '^screen'
     execute "set <xLeft>=\e[1;*D"
 endif
 let g:tmux_navigator_no_mappings = 1
+" Tmux config file highlight, and etc. e.g. K jumps to the section of man tmux
+" where the word under the cursor is explained
+Plugin 'tmux-plugins/vim-tmux'
 
 "Plugin 'vimwiki/vimwiki'
 " Enable markdown in vimwiki
