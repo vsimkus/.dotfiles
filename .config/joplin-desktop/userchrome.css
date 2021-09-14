@@ -1,0 +1,17 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/* Highlight current line */
+.CodeMirror-activeline-background.CodeMirror-linebackground {
+  background: #f5f5f5 !important;
+}
+
+/*
+ * RichMarkdown plugin 
+ */
+ 
+/* Reduce the size and visibility of the header hash tags. */
+/* The additional CSS option must be enabled */
+.cm-header.cm-rm-header-token {
+  font-size: 0.9em !important;
+  color: grey;
+}
