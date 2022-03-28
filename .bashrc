@@ -152,3 +152,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# OpenVPN alias for school
+alias infvpn='sudo openvpn ~/ovpns/Informatics-EdLAN-AT.ovpn'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
