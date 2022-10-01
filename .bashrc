@@ -156,4 +156,10 @@ unset __conda_setup
 alias infvpn='sudo openvpn ~/ovpns/Informatics-EdLAN-AT.ovpn'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add fzf keybindings
+source /usr/share/doc/fzf/examples/key-bindings.bash
+
+# Quick fixes
+alias fix-audio="systemctl --user restart pipewire pipewire-pulse; systemctl --user daemon-reload"
