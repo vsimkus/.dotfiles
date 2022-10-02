@@ -1,0 +1,2 @@
+# Add borders to gnome apps (https://github.com/regolith-linux/regolith-desktop/issues/558#issuecomment-835870803)
+for_window [class=.*] border pixel $i3-wm.window.border.size

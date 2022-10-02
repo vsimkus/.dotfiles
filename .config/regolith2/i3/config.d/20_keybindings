@@ -1,0 +1,8 @@
+###############################################################################
+# Custom keybindings
+###############################################################################
+
+## Window management
+bindsym $mod+s layout stacking
+#bindsym $mod+t layout tabbed
+bindsym $mod+e layout toggle split
